@@ -1,0 +1,53 @@
+.skill-heading{
+    margin-top:2vh;
+    color:#ff5823;
+    font-family: "Poppins-ExtraBold";
+}
+.skills-container img{
+    width: 12vw;
+    height: 20vh;
+    background-color: azure;
+    margin:3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    object-fit:contain; 
+}
+.skills-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.skills-container img:hover{
+    transform:scale(1.07);
+    transition: 1s ease-out;
+}
+.tools-heading{
+    margin-top:2vh;
+    color:#ff5823;
+    font-family: "Poppins-ExtraBold";
+}
+.tools-container img{
+    width: 20vw;
+    height: 20vh;
+    background-color: azure;
+    margin:3vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    object-fit:contain; 
+    border: 0 solid;
+    border-radius: 10%;   
+}
+.tools-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tools-container img:hover{
+    transform:scale(1.07);
+    transition: 1s ease-out;
+}
+.skillset-container{
+    margin-top: 4vh;
+}
