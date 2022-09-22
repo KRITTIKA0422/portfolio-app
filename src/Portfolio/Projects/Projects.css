@@ -1,0 +1,28 @@
+.fproject-specs{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .fproject-container{
+    width:340px;
+    margin: 2vw;
+  }
+  .fproject-poster{
+    width: 340px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .fproject-name{
+    font-size: 24px;
+    margin: 0;
+  }
+  .fproject-summary{
+    margin-top: 0;
+  }
+  .fproject-list-container{
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+  }
+  
