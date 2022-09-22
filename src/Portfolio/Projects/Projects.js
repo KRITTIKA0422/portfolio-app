@@ -3,8 +3,8 @@ import "./Projects.css";
 import {useState} from "react";
 export default function Projects(){
 
-    const frontendList=[
-        {"name":"Survey Form",
+    const frontendList=[{
+         "name":"Survey Form",
          "image":"https://drive.google.com/uc?export=view&id=1Pz02w_1jeTNr_6C6zGmUhE2TS3yeZCPy",
          "summary":"A survey form designed using HTML input tags and CSS",
          "githubcode":"https://github.com/KRITTIKA0422/Assignment-day-14-Survey-form",
@@ -29,7 +29,7 @@ export default function Projects(){
          "summary":"Webpage showing tables where the rows are divided into multiple pages using pagination in HTML & Document Object Manipulation",
          "githubcode":"https://github.com/KRITTIKA0422/Assignment-day-16-pagination",
          "deployment":"https://cheery-swan-65df32.netlify.app/"},
-         {"name":"Webpage using Dog API",
+         {"name":"Dog Webpage",
          "image":"https://drive.google.com/uc?export=view&id=1z3nUlGA6E2HxV8i-L0NrCYyKzoQx3gGf",
          "summary":"Webpage designed by fetching images of dogs from dog API using async/await and promise",
          "githubcode":"https://github.com/KRITTIKA0422/Assignment-day-20-api-dogs",
@@ -70,11 +70,15 @@ export default function Projects(){
         "heroku":"https://movies-app-guvi.herokuapp.com"}];
     return(
 <div className='projects'>
-<div className='fproject-list-container'><h2>Frontend Projects</h2>
+  <h1>PROJECTS/WORKS</h1>
+  <h2>Frontend Projects</h2>
+<div className='fproject-list-container'>
 {frontendList.map((f)=>(<Frontendworks fproject ={f}/>))}</div>
-<div className='bproject-list-container'><h2>Backend Projects</h2>
+<h2>Backend Projects</h2>
+<div className='bproject-list-container'>
 {backendList.map((b)=>(<Backendworks bproject ={b}/>))}</div>
-<div className='project-list-container'><h2>Full Stack Projects</h2>
+<h2>Full Stack Projects</h2>
+<div className='project-list-container'>
 {projectList.map((p)=>(<Projectworks project ={p}/>))}</div>
 </div>
     );
@@ -96,8 +100,8 @@ const [fshow,setFshow]= useState(true);
                         </a>
                         </div>
     </div>
-      <button onClick={()=>setFshow(!fshow)}>Summary</button>
-      {fshow?<p className="fproject-summary">{fproject.summary}</p>:""}   
+    <button onClick={()=>setFshow(!fshow)}><i class='fa fa-info-circle'></i></button>
+    {fshow?<p className="fproject-summary">{fproject.summary}</p>:""}   
     </div>
   );
   }
@@ -117,7 +121,7 @@ const [fshow,setFshow]= useState(true);
                             </a>
                             </div>
         </div>
-          <button onClick={()=>setBshow(!bshow)}>Summary</button>
+          <button onClick={()=>setBshow(!bshow)}><i class='fa fa-info-circle'></i></button>
           {bshow?<p className="bproject-summary">{bproject.summary}</p>:""}   
         </div>
       );
@@ -133,18 +137,18 @@ const [fshow,setFshow]= useState(true);
                                 <a href={project.netlify}>
                                     <i className='fa fa-eye'></i>
                                 </a>
-                                <a href={project.heroku}>
-                                    <i className='fa fa-eye'></i>
-                                </a>
                                 <a href={project.frontendcode}>
                                     <i className='fa fa-github'>Frontend</i>
+                                </a>
+                                <a href={project.heroku}>
+                                    <i className='fa fa-eye'></i>
                                 </a>
                                 <a href={project.backendcode}>
                                     <i className='fa fa-github'>Backend</i>
                                 </a>
                                 </div>
             </div>
-              <button onClick={()=>setShow(!show)}>Summary</button>
+              <button onClick={()=>setShow(!show)}><i class='fa fa-info-circle'></i></button>
               {show?<p className="project-summary">{project.summary}</p>:""}   
             </div>
           );

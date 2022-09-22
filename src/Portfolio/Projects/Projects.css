@@ -1,28 +1,138 @@
+.projects h1{
+  color: #ff5823;
+  font-family:"Poppins-ExtraBold";
+  margin-top: 4vh;
+}
+.projects h2{
+color: aliceblue;
+}
+.fproject-list-container{
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  flex-wrap: wrap;
+}
+
 .fproject-specs{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
+display: inline-flex;
+align-items: center;
+padding-left: 1vw;
+}
+.fproject-summary{
+  margin: 0;
+}
+.fproject-name{
+    font-family: "Poppins-Thin";
   }
-  .fproject-container{
-    width:340px;
-    margin: 2vw;
+.fview-icon i{
+    color: aliceblue;
+    font-size: 4vh;
+    padding-top: 2vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+  }
+  .fview-icon i:hover{
+    color: #ff5823;
+    transform: scale(1.5);
+  }
+  button:hover{
+    background-color:#ff5823;
+    transform:scale(1.5);
   }
   .fproject-poster{
-    width: 340px;
-    height: 600px;
+    width:400px;
+    height: 200px;
+    border-radius: 5%;
     object-fit: cover;
   }
-  .fproject-name{
-    font-size: 24px;
-    margin: 0;
+  .fproject-container{
+    margin:2vw;
+    width: 400px;
   }
   .fproject-summary{
-    margin-top: 0;
+    color:#ff5823; 
+    font-family:"Poppins-Black";
+    font-size: 3vh;
   }
-  .fproject-list-container{
+  .bproject-list-container{
     display: flex;
     flex-direction: row;
     align-items: space-evenly;
     flex-wrap: wrap;
   }
   
+  .bproject-specs{
+  display: inline-flex;
+  align-items: center;
+  padding-left: 1vw;
+  }
+  .bproject-summary{
+    margin: 0;
+  }
+  .bproject-name{
+      font-family: "Poppins-Thin";
+    }
+  .bview-icon i{
+      color: aliceblue;
+      font-size: 4vh;
+      padding-top: 2vh;
+      padding-right: 2vh;
+      padding-left: 2vh;
+    }
+    .bview-icon i:hover{
+      color: #ff5823;
+      transform: scale(1.5);
+    }
+    .bproject-container{
+      margin:1vw;
+      width: 600px;
+    }
+    .bproject-summary{
+      color:#ff5823; 
+      font-family:"Poppins-Black";
+      font-size: 3vh;
+    }
+    .project-list-container{
+      display: flex;
+      flex-direction: row;
+      align-items: space-evenly;
+      flex-wrap: wrap;
+    }
+    
+    .project-specs{
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1vw;
+    }
+    .project-summary{
+      margin: 0;
+    }
+    .project-name{
+        font-family: "Poppins-Thin";
+      }
+    .view-icon i{
+        color: aliceblue;
+        font-size: 4vh;
+        padding-top: 2vh;
+        padding-right: 2vh;
+        padding-left: 2vh;
+      }
+      .view-icon i:hover{
+        color: #ff5823;
+        transform: scale(1.5);
+      }
+      .project-poster{
+        width:700px;
+        height: 400px;
+        border-radius: 5%;
+        object-fit: cover;
+      }
+      .project-container{
+        margin:2vw;
+        width:700px;
+      }
+      .project-summary{
+        color:#ff5823; 
+        font-family:"Poppins-Black";
+        font-size: 3vh;
+      }
