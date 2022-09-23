@@ -63,14 +63,7 @@ background-position: center;
     transform:scale(1.07);
     transition: 1s ease-out;
 }
-.colz .colz-icon i{
-    color:white;
-    padding:10px;
-    padding-left:0px;
-}
-.colz .colz-icon i:hover{
-    transform:scale(1.5);
-}
+
 @media screen and (max-width:1110px){
     .profile-picture{
         margin:0 0px 0 80px;

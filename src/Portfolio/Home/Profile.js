@@ -6,16 +6,6 @@ export default function Profile(){
         <div className='profile-container'>
             <div className='profile-parent'>
                 <div className='profie-details'>
-                    <div className='colz'>
-                        <div className='colz-icon'>
-                        <a href="https://www.linkedin.com/in/krittika-podder-368b60151/">
-                            <i className='fa fa-linkedin'></i>
-                        </a>
-                        <a href="https://github.com/KRITTIKA0422">
-                            <i className='fa fa-github'></i>
-                        </a>
-                        </div>         
-                    </div>
                     <div className="profile-details-name">
                         <span className="primary-text">
                             {" "}

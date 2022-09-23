@@ -4,6 +4,8 @@ import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
 import HandsOnLab from '../HandsOnLab/HandsOnLab'
+import Interests from '../Interests/Interests'
+import Contact from '../Contact/Contact'
 import './Home.css'
 
 export default function Home(){
@@ -14,6 +16,8 @@ export default function Home(){
            <Skills/>
            <Projects/>
            <HandsOnLab/>
+           <Interests/>
+           <Contact/>
         </div>
     )
 }

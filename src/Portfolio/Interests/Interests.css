@@ -1,0 +1,36 @@
+.interests-heading{
+    margin-top:2vh;
+    padding-bottom: 2vh;
+    color:#ff5823;
+    font-family: "Poppins-ExtraBold";
+}
+.interesting-container{
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .hobbies-specs{
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
+ justify-content: center;
+  }
+
+  .hobbies-name{
+      font-family: "Poppins-Thin";
+      font-size: 30px;
+      color: aliceblue;
+    }
+ 
+    .hobbies-poster{
+      width:400px;
+      height: 300px;
+      border-radius: 5%;
+      object-fit: cover;
+    }
+    .hobbies-container{
+      margin:2vw;
+      width: 400px;
+    }

@@ -83,7 +83,6 @@ export default function Projects(){
 </div>
     );
 }
-
 function Frontendworks({fproject}){
   
 const [fshow,setFshow]= useState(true);
