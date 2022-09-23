@@ -3,6 +3,7 @@ import Profile from './Profile'
 import About from '../About/About'
 import Skills from '../Skills/Skills'
 import Projects from '../Projects/Projects'
+import HandsOnLab from '../HandsOnLab/HandsOnLab'
 import './Home.css'
 
 export default function Home(){
@@ -12,6 +13,7 @@ export default function Home(){
            <About/> 
            <Skills/>
            <Projects/>
+           <HandsOnLab/>
         </div>
     )
 }

@@ -23,11 +23,12 @@ padding-left: 1vw;
 }
 .fproject-name{
     font-family: "Poppins-Thin";
+    font-size: 24px;
   }
 .fview-icon i{
     color: aliceblue;
     font-size: 4vh;
-    padding-top: 2vh;
+    padding-top: 1vh;
     padding-right: 2vh;
     padding-left: 2vh;
   }
@@ -71,11 +72,12 @@ padding-left: 1vw;
   }
   .bproject-name{
       font-family: "Poppins-Thin";
+      font-size: 24px;
     }
   .bview-icon i{
       color: aliceblue;
       font-size: 4vh;
-      padding-top: 2vh;
+      padding-top: 1vh;
       padding-right: 2vh;
       padding-left: 2vh;
     }
@@ -109,11 +111,12 @@ padding-left: 1vw;
     }
     .project-name{
         font-family: "Poppins-Thin";
+        font-size: 24px;
       }
     .view-icon i{
         color: aliceblue;
         font-size: 4vh;
-        padding-top: 2vh;
+        padding-top: 1vh;
         padding-right: 2vh;
         padding-left: 2vh;
       }
