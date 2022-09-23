@@ -49,10 +49,10 @@ export default function Contact(){
          <div className='colz'>
                         <h2>SOCIAL</h2>
                         <div className='colz-icon'>
-                        <a href="https://www.linkedin.com/in/krittika-podder-368b60151/">
+                        <a href="https://www.linkedin.com/in/krittika-podder-368b60151/" target="_blank">
                             <i className='fa fa-linkedin'></i>
                         </a>
-                        <a href="https://github.com/KRITTIKA0422">
+                        <a href="https://github.com/KRITTIKA0422" target="_blank">
                             <i className='fa fa-github'></i>
                         </a>
                         </div> 

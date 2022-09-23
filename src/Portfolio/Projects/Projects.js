@@ -91,10 +91,10 @@ const [fshow,setFshow]= useState(true);
       <img src={fproject.image} alt={fproject.name} className="fproject-poster"></img>
       <div className="fproject-specs"><h2 className="fproject-name">{fproject.name}</h2>
       <div className='fview-icon'>
-                        <a href={fproject.deployment}>
+                        <a href={fproject.deployment} target="_blank">
                             <i className='fa fa-eye'></i>
                         </a>
-                        <a href={fproject.githubcode}>
+                        <a href={fproject.githubcode} target="_blank">
                             <i className='fa fa-github'></i>
                         </a>
                         </div>
@@ -112,10 +112,10 @@ const [fshow,setFshow]= useState(true);
         <div className="bproject-container">
           <div className="bproject-specs"><h2 className="bproject-name">{bproject.name}</h2>
           <div className='bview-icon'>
-                            <a href={bproject.deployment}>
+                            <a href={bproject.deployment} target="_blank">
                                 <i className='fa fa-eye'></i>
                             </a>
-                            <a href={bproject.githubcode}>
+                            <a href={bproject.githubcode} target="_blank">
                                 <i className='fa fa-github'></i>
                             </a>
                             </div>
@@ -133,16 +133,16 @@ const [fshow,setFshow]= useState(true);
               <img src={project.image} alt={project.name} className="project-poster"></img>
               <div className="project-specs"><h2 className="project-name">{project.name}</h2>
               <div className='view-icon'>
-                                <a href={project.netlify}>
+                                <a href={project.netlify} target="_blank">
                                     <i className='fa fa-eye'></i>
                                 </a>
-                                <a href={project.frontendcode}>
+                                <a href={project.frontendcode} target="_blank">
                                     <i className='fa fa-github'>Frontend</i>
                                 </a>
-                                <a href={project.heroku}>
+                                <a href={project.heroku} target="_blank">
                                     <i className='fa fa-eye'></i>
                                 </a>
-                                <a href={project.backendcode}>
+                                <a href={project.backendcode} target="_blank">
                                     <i className='fa fa-github'>Backend</i>
                                 </a>
                                 </div>
