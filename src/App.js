@@ -12,7 +12,19 @@ import './App.css';
 function App(){
     return(
         <div className="App">
-            <Routes>
+        <nav className="routing">
+            <ul className="route-list">
+            <li><Link to="/">HOME</Link></li>
+            <li><Link to="/about">ABOUT ME</Link></li>
+            <li><Link to="/skills">SKILLS</Link></li>
+            <li><Link to="/projects">PROJECTS</Link></li>
+            <li><Link to="/experience">HANDS ON LAB</Link></li>
+            <li><Link to="/interests">INTERESTS</Link></li>
+            <li><Link to="/contact">CONTACT ME</Link></li>
+            </ul>
+            </nav> 
+
+        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={ <Skills/>} />

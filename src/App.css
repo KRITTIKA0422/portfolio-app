@@ -3,3 +3,32 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.routing{
+    height: 7vh;
+    width: 100%;
+    margin-bottom:5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.route-list{
+list-style-type: none;
+}
+.route-list li{
+padding-left: 1vw;
+padding-right: 1vw;
+padding-top: 1vh;
+padding-bottom: 0;
+margin-left: 1vw;
+margin-right: 1vw;
+margin-bottom: 1vh;
+display: inline-block;
+background-color:rgba(253, 174, 145, 0.932);
+border-radius: 5%;
+}
+.route-list li:hover{
+background-color: tomato;
+transition:3s;
+transform: scale(1.05);
+}
+
