@@ -67,8 +67,16 @@ export default function Projects(){
         "frontendcode":"https://github.com/KRITTIKA0422/moviedisplay-app",
         "backendcode":"https://github.com/KRITTIKA0422/Assignment-day-36-node",
         "netlify":"https://unique-churros-a74d61.netlify.app/",
-        "heroku":"https://movies-app-guvi.herokuapp.com"}];
-    return(
+        "heroku":"https://movies-app-guvi.herokuapp.com"},
+        {
+          "name":"Gmail Clone App",
+          "image":"https://drive.google.com/uc?export=view&id=1-vkmh3aGONfKyDdGCh6j8HQB2cfQxIHH",
+          "summary":"Gmail Clone with features of sending and receiving mails using frontend coding. CRUD operations of sent mails and received mails api, authorization and authentication of user of gmail account using node js and Mongo DB. Demo credentials- username= Krittika , Password= welcomek",
+          "frontendcode":"https://github.com/KRITTIKA0422/Gmail-clone-Frontend",
+          "backendcode":"https://github.com/KRITTIKA0422/Gmail-clone-Backend",
+          "netlify":"https://beautiful-crostata-e4946d.netlify.app/",
+          "heroku":"https://gmail-clone-krit123.herokuapp.com"}];
+  return(
 <div className='projects'>
   <h1>PROJECTS/WORKS</h1>
   <h2>Frontend Projects</h2>
