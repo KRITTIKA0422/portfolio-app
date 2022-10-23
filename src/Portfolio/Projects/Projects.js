@@ -48,7 +48,12 @@ export default function Projects(){
          "image":"https://drive.google.com/uc?export=view&id=14YR5hR16l-FFUV4OCbMrCQVKLyL2_i-P",
          "summary":"Responsive webpage displaying price lists using React js",
          "githubcode":"https://github.com/KRITTIKA0422/https---github.com-KRITTIKA0422-Guvi-Assignment-day-21",
-         "deployment":"https://cheerful-syrniki-8cba73.netlify.app/"}];
+         "deployment":"https://cheerful-syrniki-8cba73.netlify.app/"},
+         {"name":"Product App",
+         "image":"https://drive.google.com/uc?export=view&id=1C4jxJRBjFx_9dKXbDXPU1atQyecBlPQw",
+         "summary":"Web App using react js to display products, creation of products using formik by fetching data and performing CRUD operations using MockApi.",
+         "githubcode":"https://github.com/KRITTIKA0422/product-app",
+         "deployment":"https://statuesque-quokka-6cb017.netlify.app/"}];
          const backendList=[{
             "name":"Hall Booking Task",
             "githubcode":"https://github.com/KRITTIKA0422/hall-booking",
