@@ -13,6 +13,8 @@ export default function HandsOnLab(){
         <li>Can do queries for SQL and MongoDB.</li>
         <li>Can fetch data from MongoDB using Atlas, create express server and create API in Node JS and can perform CRUD operations also.</li>
         <li>Confident in frontend, backend development and deploying sites using Netlify and Heroku.</li>
+        <li>Basic knowledge about data structure and algorithms.</li>
+        <li>Basic understanding of Test Driven Development.</li>
     </ul>
 </div>
     );
