@@ -1,7 +1,7 @@
 .about-container{
     display: flex;
     flex-direction: column;
-    padding-top: 3vh;
+    padding-top: 6vh;
 }
 .about-heading{
     color:#ff5823;
