@@ -7,6 +7,14 @@ export default function Profile(){
             <div className='profile-parent'>
                 <div className='profie-details'>
                     <div className="profile-details-name">
+                    <div className='contactsocial'>
+                        <a href="https://www.linkedin.com/in/krittika-podder-368b60151/" target="_blank">
+                            <i className='fa fa-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/KRITTIKA0422" target="_blank">
+                            <i className='fa fa-github'></i>
+                        </a>
+                        </div>
                         <span className="primary-text">
                             {" "}
                             Hello, I'M <span className="highlighted-text">Krittika Podder</span>
@@ -42,6 +50,7 @@ export default function Profile(){
                             <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>
+                    
                 </div>
                 <div className='profile-picture'>
                     <div className='profile-picture-background'></div>

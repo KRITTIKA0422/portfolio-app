@@ -11,6 +11,14 @@
     align-items: center;
     color: aliceblue;
 }
+.contactsocial a{
+    padding: 0.5vw;
+    font-size: 30px;
+    color:aliceblue;
+}
+.contactsocial a:hover{
+    color: #ff5823;
+}
 .profile-details-name{
     font-size: 24px;
     font-family: "Poppins SemiBold";

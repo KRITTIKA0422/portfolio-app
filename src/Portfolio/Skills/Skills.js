@@ -22,6 +22,8 @@ export default function Skills(){
 <img src={require('../../Assets/Skillspic/netlify.png')} alt="netlify" />
 <img src={require('../../Assets/Skillspic/heroku.png')} alt="heroku" />
 <img src={require('../../Assets/Skillspic/postman.png')} alt="postman" />
+<img src="https://miro.medium.com/max/1400/1*Rv6kW7EnWmShq7DKEb9-_A@2x.jpeg" alt="vercel" />
+<img src="https://intellyx.com/wp-content/uploads/2019/08/Render-cloud-intellyx-BC-logo.png" alt="render" />
 </div>
 </div>
     );
