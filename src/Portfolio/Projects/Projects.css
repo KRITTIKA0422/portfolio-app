@@ -4,7 +4,36 @@
   margin-top: 6vh;
 }
 .projects h2{
-color: aliceblue;
+  color: aliceblue;
+}
+h3{
+  color: aliceblue;
+  font-size: 18px;
+  margin:0; 
+}
+.credentials{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.usercredentials p{
+  font-size: 15px;
+  color: #ff5823;
+  margin:0;
+}
+.admincredentials p{
+  font-size: 15px;
+  color: #ff5823;
+  margin: 0;
+}
+.usercredentials{
+  font-family: "Poppins-Thin";
+  margin-left: 8vw;
+}
+.admincredentials{
+  font-family: "Poppins-Thin";
+ margin-left: 30vw;
 }
 .fproject-list-container{
   display: flex;
@@ -27,18 +56,24 @@ padding-left: 1vw;
   }
 .fview-icon i{
     color: aliceblue;
-    font-size: 4vh;
+    font-size: 11px;
     padding-top: 1vh;
-    padding-right: 2vh;
-    padding-left: 2vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
   }
   .fview-icon i:hover{
     color: #ff5823;
-    transform: scale(1.5);
+    transform: scale(1.09);
+  }
+  button{
+    font-size: 2vh;
+    padding-top: 0vh;
+    padding-right: 1vh;
+    padding-left: 1vh;
   }
   button:hover{
     background-color:#ff5823;
-    transform:scale(1.5);
+    transform:scale(1.09);
   }
   .fproject-poster{
     width:400px;
@@ -55,45 +90,7 @@ padding-left: 1vw;
     font-family:"Poppins-Black";
     font-size: 3vh;
   }
-  .bproject-list-container{
-    display: flex;
-    flex-direction: row;
-    align-items: space-evenly;
-    flex-wrap: wrap;
-  }
   
-  .bproject-specs{
-  display: inline-flex;
-  align-items: center;
-  padding-left: 1vw;
-  }
-  .bproject-summary{
-    margin: 0;
-  }
-  .bproject-name{
-      font-family: "Poppins-Thin";
-      font-size: 24px;
-    }
-  .bview-icon i{
-      color: aliceblue;
-      font-size: 4vh;
-      padding-top: 1vh;
-      padding-right: 2vh;
-      padding-left: 2vh;
-    }
-    .bview-icon i:hover{
-      color: #ff5823;
-      transform: scale(1.5);
-    }
-    .bproject-container{
-      margin:1vw;
-      width: 600px;
-    }
-    .bproject-summary{
-      color:#ff5823; 
-      font-family:"Poppins-Black";
-      font-size: 3vh;
-    }
     .project-list-container{
       display: flex;
       flex-direction: row;
@@ -115,24 +112,25 @@ padding-left: 1vw;
       }
     .view-icon i{
         color: aliceblue;
-        font-size: 4vh;
+        font-size: 11px;
         padding-top: 1vh;
-        padding-right: 2vh;
-        padding-left: 2vh;
+        padding-right: 1vh;
+        padding-left: 1vh;
       }
+      
       .view-icon i:hover{
         color: #ff5823;
-        transform: scale(1.07);
+        transform: scale(1.09);
       }
       .project-poster{
-        width:700px;
-        height: 400px;
+        width:400px;
+        height: 200px;
         border-radius: 5%;
         object-fit: cover;
       }
       .project-container{
         margin:2vw;
-        width:700px;
+        width:400px;
       }
       .project-summary{
         color:#ff5823; 
