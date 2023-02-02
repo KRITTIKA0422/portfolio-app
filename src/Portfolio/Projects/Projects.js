@@ -86,8 +86,8 @@ export default function Projects(){
         "summary":"Responsive movie app showing the movies in container with hidding and showing summary as per user interaction using react js and fetching movie data from Mongo DB through Node js",
         "frontendcode":"https://github.com/KRITTIKA0422/moviedisplay-app",
         "backendcode":"https://github.com/KRITTIKA0422/Assignment-day-36-node",
-        "netlify":"https://unique-churros-a74d61.netlify.app/",
-        "backendurl":"https://movies-app-guvi.herokuapp.com"}
+        "netlify":"https://effervescent-longma-64cf64.netlify.app",
+        "backendurl":"https://moviedisplaybackend.onrender.com"}
        ];
   return(
 <div className='projects'>
