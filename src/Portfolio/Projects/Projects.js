@@ -70,7 +70,7 @@ export default function Projects(){
             "summary":"Responsive pizza app using React js and Node js with payment gateway integration and use of CRUD operations to add, view pizzas along with user login in which admin has the permission to delete an item from the App.",
             "frontendcode":"https://github.com/KRITTIKA0422/payment-app",
             "backendcode":"https://github.com/KRITTIKA0422/PaymentGateway-Backend",
-            "netlify":"https://delightful-churros-6720be.netlify.app",
+            "netlify":"https://leafy-torte-d9ad2a.netlify.app",
             "backendurl":"https://paymentgatewaybackend.onrender.com"},
           {
             "name":"Gmail Clone App",
