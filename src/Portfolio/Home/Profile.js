@@ -46,7 +46,7 @@ export default function Profile(){
                         </span>
                     </div>
                     <div className='profile-options'>
-                        <a href="https://drive.google.com/uc?export=view&id=1L1VRgR1y0ga8mZlHaSUpHuOdoK55YakW" target="_blank">
+                        <a href="https://drive.google.com/uc?export=view&id=1EWyZ2sJH3jxskETsugiBmbh9MonsZF5m" target="_blank">
                             <button className="btn highlighted-btn">Get Resume</button>
                         </a>
                     </div>
