@@ -98,16 +98,12 @@ export default function Projects(){
     <p>Username = Krittika</p>
     <p>Password = welcomek</p>
     <p>Email = krittika489podder@gmail.com</p>
-    <p>Test Cards (VISA) = 4111 1111 1111 1111</p>
-    <p>Random CVV with any future Expiry Date</p>
     </div>
   <div className='admincredentials'>
   <h3>Demo Credentials of Admin</h3>
     <p>Username = Arnab</p>
     <p>Password = welcomea</p>
     <p>Email = krittikaarnab46@gmail.com</p>
-    <p>Test Cards (VISA) = 4111 1111 1111 1111</p>
-    <p>Random CVV with any future Expiry Date</p>
     </div>
     </div>
   
