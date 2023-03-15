@@ -77,9 +77,9 @@ export default function Projects(){
             "image":"https://drive.google.com/uc?export=view&id=1-vkmh3aGONfKyDdGCh6j8HQB2cfQxIHH",
             "summary":"Gmail Clone with features of sending and receiving mails using frontend coding. CRUD operations of sent mails and received mails api, authorization and authentication of user of gmail account using node js and Mongo DB.",
             "frontendcode":"https://github.com/KRITTIKA0422/Gmail-clone-Frontend",
-            "backendcode":"https://github.com/KRITTIKA0422/Gmail-clone-Backend",
-            "netlify":"https://resplendent-douhua-bf7f72.netlify.app",
-            "backendurl":"https://gmailclonebackend.onrender.com"},
+            "backendcode":"https://github.com/KRITTIKA0422/gmail_backend",
+            "netlify":"https://symphonious-heliotrope-005e5c.netlify.app",
+            "backendurl":"https://mailbackend.onrender.com"},
           {
         "name":"Movie Display App",
         "image":"https://drive.google.com/uc?export=view&id=1wOpWU2ridZCjYlgJJWrRsVBsWXFv12f6",
