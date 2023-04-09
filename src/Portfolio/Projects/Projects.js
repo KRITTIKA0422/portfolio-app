@@ -150,9 +150,6 @@ const [fshow,setFshow]= useState(true);
                                 <a href={project.frontendcode} target="_blank">
                                     <i className='fa fa-github'>Frontend</i>
                                 </a>
-                                <a href={project.backendurl} target="_blank">
-                                    <i className='fa fa-eye'></i>
-                                </a>
                                 <a href={project.backendcode} target="_blank">
                                     <i className='fa fa-github'>Backend</i>
                                 </a>
